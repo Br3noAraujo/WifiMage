@@ -1,4 +1,4 @@
-# WIFIMAGE
+![image](https://github.com/Br3noAraujo/WifiMage/assets/116783527/17c02fac-c216-426e-956a-b5bb7c0d2a2e)![image](https://github.com/Br3noAraujo/WifiMage/assets/116783527/ad772d9f-f45d-4755-a46e-623e5d569fd4)# WIFIMAGE
 
 **wifimage** is a simple python script to manipulate a wifi interface
 
@@ -8,29 +8,29 @@
 python wifimage.py
 ```
 
-<img src="https://media.discordapp.net/attachments/874271657760542720/1057807667705430056/Captura_de_tela_2022-12-28_20-42-14.png">
+<img src="https://i.imgur.com/lYy8jzJ.png">
 
-
-#### Set MANAGED MODE
-``` shell
-python wifimage.py -man <iface>
-```
-<img src='https://media.discordapp.net/attachments/874271657760542720/1057807666598125568/Captura_de_tela_2022-12-28_20-43-04.png'>
-<img src='https://media.discordapp.net/attachments/874271657760542720/1057807666308730950/Captura_de_tela_2022-12-28_20-46-15.png'>
 
 #### Set MONITOR MODE
 ``` shell
 python wifimage.py -mon <iface>
 ```
-<img src='https://media.discordapp.net/attachments/874271657760542720/1057807666002542814/Captura_de_tela_2022-12-28_20-46-49.png'>
-<img src='https://media.discordapp.net/attachments/874271657760542720/1057807665625059359/Captura_de_tela_2022-12-28_20-47-56.png'>
+<img src='https://i.imgur.com/v2SL1hu.png'>
+<img src='https://i.imgur.com/TrXUNsY.png'>
+
+#### Set MANAGED MODE
+``` shell
+python wifimage.py -man <iface>
+```
+<img src='https://i.imgur.com/niTqY1f.png'>
+<img src='https://i.imgur.com/NxRTgIu.png'>
 
 #### Rename Interface
 ``` shell
 python wifimage.py -r <iface> <new_name>
 ```
-<img src='https://media.discordapp.net/attachments/874271657760542720/1057807665239179304/Captura_de_tela_2022-12-28_20-48-33.png'>
-<img src='https://media.discordapp.net/attachments/874271657760542720/1057807664861683762/Captura_de_tela_2022-12-28_20-49-15.png?width=662&height=408'>
+<img src='https://i.imgur.com/tzOdQlH.png'>
+<img src='https://i.imgur.com/y69WT6s.png'>
 
 ####  BUY ME ONE COFFEE ☕ 
  - ***BTC*** bc1ql7hl88xzc70vtz6vamy8su7hjhegqcduwzr7577
