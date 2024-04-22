@@ -1,4 +1,4 @@
-![image](https://github.com/Br3noAraujo/WifiMage/assets/116783527/17c02fac-c216-426e-956a-b5bb7c0d2a2e)![image](https://github.com/Br3noAraujo/WifiMage/assets/116783527/ad772d9f-f45d-4755-a46e-623e5d569fd4)# WIFIMAGE
+# WIFIMAGE
 
 **wifimage** is a simple python script to manipulate a wifi interface
 
