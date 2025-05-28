@@ -1,38 +1,90 @@
-# WIFIMAGE
+# WifiMage
 
-**wifimage** is a simple python script to manipulate a wifi interface
+![WifiMage Banner](https://i.imgur.com/d84YpdA.png)
 
-#### USAGE
+## About
+WifiMage is a powerful tool for managing wireless network interfaces on Linux systems. Developed to provide a user-friendly interface and advanced features for WiFi network administration.
 
-``` shell
-python wifimage.py
+## Features
+- 🎯 Monitor and Managed Mode
+- 📡 Network scanning
+- 🔍 Real-time monitoring
+- 🔒 Security analysis
+- 🛠️ Connection diagnostics
+- 💾 Save scan results
+- 🎨 Colorful and intuitive interface
+
+## Requirements
+- Python 3.x
+- Linux
+- Superuser permissions (sudo)
+- Python packages:
+  - colorama
+
+## Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/wifimage.git
+
+# Enter the directory
+cd wifimage
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Give execution permission
+chmod +x wifimage.py
 ```
 
-<img src="https://i.imgur.com/lYy8jzJ.png">
+## Usage
+```bash
+# List available interfaces
+python3 wifimage.py -l
 
+# Show detailed interface information
+python3 wifimage.py -i wlan0
 
-#### Set MONITOR MODE
-``` shell
-python wifimage.py -mon <iface>
+# Set interface to monitor mode
+python3 wifimage.py -mon wlan0
+
+# Set interface to managed mode
+python3 wifimage.py -man wmg0mon
+
+# Scan available networks
+python3 wifimage.py -s wlan0
+
+# Monitor networks in real-time
+python3 wifimage.py -rt wlan0
+
+# Analyze interface security
+python3 wifimage.py -sec wlan0
+
+# Diagnose connection issues
+python3 wifimage.py -d wlan0
 ```
-<img src='https://i.imgur.com/v2SL1hu.png'>
-<img src='https://i.imgur.com/TrXUNsY.png'>
 
-#### Set MANAGED MODE
-``` shell
-python wifimage.py -man <iface>
-```
-<img src='https://i.imgur.com/niTqY1f.png'>
-<img src='https://i.imgur.com/NxRTgIu.png'>
+## Available Options
+- `-r, --rename`: Rename an interface
+- `-mon, --monitor`: Set interface to monitor mode
+- `-man, --managed`: Set interface to managed mode
+- `-l, --list`: List available interfaces
+- `-i, --info`: Show detailed interface information
+- `-s, --scan`: Scan available networks
+- `-save, --save-scan`: Save scan results
+- `-rt, --realtime`: Start real-time monitoring
+- `-sec, --security`: Analyze security settings
+- `-d, --diagnose`: Diagnose connection issues
 
-#### Rename Interface
-``` shell
-python wifimage.py -r <iface> <new_name>
-```
-<img src='https://i.imgur.com/tzOdQlH.png'>
-<img src='https://i.imgur.com/y69WT6s.png'>
+## Contributing
+Contributions are welcome! Feel free to open issues or send pull requests.
 
-####  BUY ME ONE COFFEE ☕ 
- - ***BTC*** bc1ql7hl88xzc70vtz6vamy8su7hjhegqcduwzr757
-- ***ETH*** 0xead4a58c8113a65b864c6f08d225003dce5cba08
-- ***BUSD*** 0xead4a58c8113a65b864c6f08d225003dce5cba08
+## License
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
+
+## Author
+- **Br3noAraujo** - [GitHub](https://github.com/your-username)
+
+## Acknowledgments
+- Python Community
+- Library developers
+- All project contributors 
