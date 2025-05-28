@@ -78,10 +78,9 @@ python3 wifimage.py -d wlan0
 ## Contributing
 Contributions are welcome! Feel free to open issues or send pull requests.
 
+## License
+This project is under the MIT license.
+
 ## Author
 - **Br3noAraujo** - [GitHub](https://github.com/your-username)
 
-## Acknowledgments
-- Python Community
-- Library developers
-- All project contributors 
